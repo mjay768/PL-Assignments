@@ -15,3 +15,5 @@
  ))
 
 (my_union '(A B C) '(A E F G H I))
+(my_union '(A (B C) D) '(E F G))
+(my_union '(A (B C) (D E) F) '((G H) I J))
